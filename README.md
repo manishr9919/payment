@@ -32,33 +32,38 @@ A full-stack microservice for managing school payments and transactions, featuri
 
 ## Project Structure
 
-```
-EDVIRON_SOFTWARE_DEVELOPER_ASSESSMENT/
+payment/
 │
-├── backend/
-│   ├── src/
-│   │   ├── config/
-│   │   ├── controllers/
-│   │   ├── middleware/
-│   │   ├── models/
-│   │   ├── routes/
-│   │   └── ...
-│   ├── server.js
+├── school-payment-backend/
+│   ├── config/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── node_modules/
+│   ├── index.js
 │   ├── package.json
-│   └── .env.example
+│   ├── package-lock.json
+│   ├── .env
+│   └── .gitignore
 │
-├── frontend/
+├── school-payments-frontend/
 │   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── redux/
-│   │   └── ...
 │   ├── public/
+│   ├── dist/
+│   ├── node_modules/
+│   ├── index.html
+│   ├── vite.config.js
+│   ├── tailwind.config.js
+│   ├── postcss.config.js
+│   ├── eslint.config.js
+│   ├── vercel.json
 │   ├── package.json
-│   └── .env.example
+│   ├── package-lock.json
+│   ├── .env
+│   ├── .gitignore
+│   └── README.md
 │
 └── README.md
-```
 
 ---
 
